@@ -1,5 +1,4 @@
-from pydantic import BaseModel
-from typing import Dict, Any, List, Literal, Optional
+from typing import Dict
 from crimson.templator import (
     format_indent,
     format_insert,
