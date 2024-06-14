@@ -9,16 +9,17 @@ from crimson.templator import (
 
 def format_indent_patch(
     text: str,
-    kwargs:Dict[str, str],
+    kwargs: Dict[str, str],
     open: str = r"\{",
     close: str = r"\}",
     safe: bool = True,
 ):
     return format_indent(text, open, close, safe, **kwargs)
 
+
 def format_insert_patch(
     text: str,
-    kwargs:Dict[str, str],
+    kwargs: Dict[str, str],
     open: str = r"\[",
     close: str = r"\]",
     safe: bool = True,
