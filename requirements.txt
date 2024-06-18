@@ -1,3 +1,4 @@
 crimson-templator
 pandas
 crimson-data-class
+pytest
