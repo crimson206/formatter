@@ -23,7 +23,6 @@ classifiers = [
 dependencies = [
     "pydantic",
     "crimson-templator",
-    "pandas",
 ]
 requires-python = ">=3.9"
 
